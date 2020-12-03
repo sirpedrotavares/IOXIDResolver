@@ -18,3 +18,9 @@ Address: 192.168.77.201
 Address: 10.10.11.3
 ```
 This is super useful because it helps you to identify hosts that have additional active interfaces, which usually means, virtual machines, VPNs, connected wireless, docker, etc. Basically "interesting".
+
+If you have problems with impacket modules, please consider to install it in a virtualenv.
+https://github.com/SecureAuthCorp/impacket
+
+Installation info from Impacket repo:
+In order to install the source execute the following command from the directory where the Impacket's distribution has been unpacked: pip3 install . (pip install . for Python 2.x). This will install the classes into the default Python modules path; note that you might need special permissions to write there.
