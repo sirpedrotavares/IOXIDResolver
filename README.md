@@ -1,4 +1,4 @@
-# IOXIDResolver
+# IOXIDResolver (Python3 updated)
 IOXIDResolver.py from AirBus Security
 
 I couldn't find an official repository for this code so I am posting it here. It's great research and super useful.
@@ -9,7 +9,7 @@ I couldn't find an official repository for this code so I am posting it here. It
 ## Example Run
 
 ```
-user@host:~/IOXIDResolver$ python IOXIDResolver.py -t 10.10.11.3
+user@host:~/IOXIDResolver$ python3 IOXIDResolver.py -t 10.10.11.3
 [*] Retrieving network interface of 10.10.11.3
 Address: HYPERV1
 Address: 192.168.57.1
